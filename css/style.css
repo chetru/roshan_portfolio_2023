@@ -530,6 +530,7 @@ textarea {
 
 
 .About_Me_Portion .about_detail p {
+	color: var(--dark_silver);
 	font-size: 17px;
 	margin-top: 16px;
 	text-align: justify;
@@ -835,8 +836,8 @@ textarea {
 
 .timeline .timeline_item p {
 	font-size: var(--small_text);
-	color: rgb(53, 44, 44);
-	font-weight: 800;
+	color: rgb(174, 8, 8);
+	font-weight: 700;
 	margin-bottom: 6px;
 }
 
@@ -1179,15 +1180,27 @@ textarea {
 	font-size: 16px;
 }
 
+.Contect_Me_Portion .contect_card .contect_detail span{
+	color: var(--dark_silver);
+}
+
 .Contect_Me_Portion .contect_card .contect_detail {
 	padding-left: 20px;
+}
+
+.Contect_Me_Portion .contect_card .contect_detail h6{
+	color: var(--dull_black);
+}
+
+.Contect_Me_Portion .contect_card .contect_detail span a{
+	color: var(--dark_silver);
 }
 
 .Contect_Me_Portion .contect_card .contect_detail span {
 	display: block;
 	padding-top: 2px;
 	font-size: var(--small_text);
-	color: var(--light_silver);
+	color: var(--dark_silver);
 }
 
 /*/CONTECT ME PORTION*/
